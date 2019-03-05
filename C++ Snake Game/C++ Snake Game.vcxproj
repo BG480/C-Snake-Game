@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="App.cpp" />
+    <ClCompile Include="GameWindow.cpp" />
     <ClCompile Include="ArcticFood.cpp" />
     <ClCompile Include="ArcticGraphicFactory.cpp" />
     <ClCompile Include="ArcticScreenTile.cpp" />
@@ -40,7 +40,7 @@
     <ClCompile Include="TropicalSnakeGraphicPart.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h" />
+    <ClInclude Include="GameWindow.h" />
     <ClInclude Include="ArcticFood.h" />
     <ClInclude Include="ArcticGraphicFactory.h" />
     <ClInclude Include="ArcticScreenTile.h" />

@@ -6,12 +6,12 @@ ScreenTile::ScreenTile(float width, float height)
 	tile.setOutlineThickness(1);
 }
 
-void ScreenTile::SetPosition(float x, float y)
+void ScreenTile::setPosition(float x, float y)
 {
 	tile.setPosition(x, y);
 }
 
-sf::RectangleShape  ScreenTile::GetTileShape()
+sf::RectangleShape  ScreenTile::getTileShape()
 {
 	return tile;
 }

@@ -18,9 +18,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ArcticFood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -72,11 +69,11 @@
     <ClCompile Include="TropicalSnakeGraphicPart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ArcticFood.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -129,6 +126,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TropicalSnakeGraphicPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,25 +1,25 @@
 #include "ElementCoordinates.h"
 
-ElementCoordinates::ElementCoordinates(int x_pos, int y_pos): x(x_pos), y(y_pos)
+ElementCoordinates::ElementCoordinates(int xPosition, int yPosition): x(xPosition), y(yPosition)
 {
 }
 
-int ElementCoordinates::GetX()
+int ElementCoordinates::getX()
 {
 	return x;
 }
 
-int ElementCoordinates::GetY()
+int ElementCoordinates::getY()
 {
 	return y;
 }
 
-void ElementCoordinates::SetX(int x_pos)
+void ElementCoordinates::setX(int xPosition)
 {
-	x = x_pos;
+	x = xPosition;
 }
 
-void ElementCoordinates::SetY(int y_pos)
+void ElementCoordinates::setY(int yPosition)
 {
-	y = y_pos;
+	y = yPosition;
 }

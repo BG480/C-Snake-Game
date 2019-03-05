@@ -2,16 +2,16 @@
 
 FoodGraphic::FoodGraphic(float radius)
 {
-	food_shape.setRadius(radius);
-	food_shape.setPointCount(6);
+	foodShape.setRadius(radius);
+	foodShape.setPointCount(6);
 }
 
-void FoodGraphic::SetPosition(float x, float y)
+void FoodGraphic::setPosition(float x, float y)
 {
-	food_shape.setPosition(x, y);
+	foodShape.setPosition(x, y);
 }
 
-sf::CircleShape FoodGraphic::GetGraphicShape()
+sf::CircleShape FoodGraphic::getGraphicShape()
 {
-	return food_shape;
+	return foodShape;
 }

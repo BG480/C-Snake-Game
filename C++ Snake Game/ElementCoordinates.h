@@ -9,10 +9,10 @@ public:
 
 	ElementCoordinates(int, int);
 
-	int GetX();
-	int GetY();
-	void SetX(int);
-	void SetY(int);
+	int getX();
+	int getY();
+	void setX(int);
+	void setY(int);
 
 
 };

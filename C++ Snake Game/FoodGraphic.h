@@ -5,15 +5,15 @@ class FoodGraphic
 {
 protected:
 	
-	sf::CircleShape food_shape;
+	sf::CircleShape foodShape;
 
 public:
 
 	FoodGraphic(float);
 
-	void SetPosition(float, float);
+	void setPosition(float, float);
 
-	sf::CircleShape GetGraphicShape();
+	sf::CircleShape getGraphicShape();
 
 
 

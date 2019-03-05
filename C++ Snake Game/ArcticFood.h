@@ -4,6 +4,7 @@
 class ArcticFood : public FoodGraphic
 {
 public:
+
 	ArcticFood(float);
 
 };

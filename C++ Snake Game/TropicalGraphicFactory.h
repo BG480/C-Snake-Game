@@ -10,8 +10,8 @@ class TropicalGraphicFactory : public GraphicFactory
 {
 
 public:
-	virtual std::unique_ptr<ScreenTile> MakeTile(float, float);
-	virtual std::unique_ptr<FoodGraphic> MakeFood(float);
-	virtual std::unique_ptr<SnakeGraphicPart> MakeSnakeGraphicPart(float);
+	virtual std::unique_ptr<ScreenTile> makeTile(float, float);
+	virtual std::unique_ptr<FoodGraphic> makeFood(float);
+	virtual std::unique_ptr<SnakeGraphicPart> makeSnakeGraphicPart(float);
 
 };

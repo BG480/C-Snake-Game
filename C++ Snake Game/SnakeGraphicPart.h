@@ -11,8 +11,8 @@ public:
 
 	SnakeGraphicPart(float);
 
-	void SetPosition(float, float);
+	void setPosition(float, float);
 
-	sf::CircleShape GetGraphicShape();
+	sf::CircleShape getGraphicShape();
 
 };

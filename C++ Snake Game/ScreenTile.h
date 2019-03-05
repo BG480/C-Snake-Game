@@ -11,7 +11,7 @@ public:
 
 	ScreenTile(float, float);
 
-	void SetPosition(float, float);
+	void setPosition(float, float);
 
-	sf::RectangleShape  GetTileShape();
+	sf::RectangleShape  getTileShape();
 };
