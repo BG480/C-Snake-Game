@@ -60,7 +60,7 @@ void GameWindow::game(std::unique_ptr<GraphicFactory> factoryPointer)
 	srand(time(NULL));
 	bool game = true;
 	auto tileGraphic = factoryPointer->makeTile(widthOfTile, heightOfTile);
-	auto snakePartGraphic = factoryPointer->makeSnakeGraphicPart(widthOfTile / 2);
+	auto snakePartGraphic = factoryPointer->makeSnakeGraphicPart(widthOfTile/2);
 	auto foodGraphic = factoryPointer->makeFood(widthOfTile / 4);
 	float movementDelay = 0.65;
 	MoveDirection moveDirection = UP;
@@ -182,7 +182,7 @@ void GameWindow::game(std::unique_ptr<GraphicFactory> factoryPointer)
 
 		for (int i = 0; i < snakePartsCoordinates.size(); i++)
 		{
-			snakePartGraphic->setPosition(snakePartsCoordinates[i].getX() * widthOfTile, snakePartsCoordinates[i].getY() * widthOfTile);
+			snakePartGraphic->setPosition(snakePartsCoordinates[i].getX() * widthOfTile, snakePartsCoordinates[i].getY() * heightOfTile);
 			window.draw(snakePartGraphic->getGraphicShape());
 		}
 

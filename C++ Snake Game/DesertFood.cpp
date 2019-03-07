@@ -2,5 +2,5 @@
 
 DesertFood::DesertFood(float radius) : FoodGraphic(radius)
 {
-	foodShape.setFillColor(sf::Color::Yellow);
+	foodShape.setFillColor(sf::Color::Color(70,33,26,255));
 };
