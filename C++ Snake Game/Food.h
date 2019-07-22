@@ -1,0 +1,12 @@
+#pragma once
+#include <SFML/Graphics.hpp>
+
+class Food
+{
+
+public:
+
+	virtual void setPosition(float, float) = 0;
+	virtual sf::CircleShape getFoodGraphic() = 0;
+	
+};

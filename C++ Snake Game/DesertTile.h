@@ -1,17 +1,14 @@
 #pragma once
-#include <SFML/Graphics.hpp>
 
-class ScreenTile
+#include "Tile.h"
+
+class DesertTile : public Tile
 {
-protected:
-	
 	sf::RectangleShape tile;
-
 public:
-
-	ScreenTile(float, float);
-
+	DesertTile(float, float);
 	void setPosition(float, float);
 
 	sf::RectangleShape  getTileShape();
+
 };

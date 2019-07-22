@@ -13,48 +13,6 @@ GameWindow::GameWindow(int width, int height, int horizontalTiles, int verticalT
 	
 }
 
-int GameWindow::menu()
-{
-	bool menu = true;
-
-	sf::Text menuHeaderText; // naglowek menu
-	menuHeaderText.setString("SNAKE");
-	menuHeaderText.setCharacterSize(60);
-	menuHeaderText.setFillColor(sf::Color::White);
-	menuHeaderText.setPosition(window.getSize().x / 2.f - menuHeaderText.getGlobalBounds().width / 2.f, 100.f);
-
-	sf::Text menuOptionsText[3]; // tablica przechowujaca opcje menu
-
-	
-	menuOptionsText[0].setString("Graj");
-	menuOptionsText[0].setCharacterSize(40);
-	menuOptionsText[0].setFillColor(sf::Color::Yellow);
-	menuOptionsText[0].setPosition(window.getSize().x / 2.f - menuOptionsText[0].getGlobalBounds().width / 2.f, 300.f);
-
-
-
-	menuOptionsText[1].setString("Graj");
-	menuOptionsText[1].setCharacterSize(40);
-	menuOptionsText[1].setFillColor(sf::Color::Yellow);
-	menuOptionsText[1].setPosition(window.getSize().x / 2.f - menuOptionsText[0].getGlobalBounds().width / 2.f, 300.f);
-
-
-	menuOptionsText[1].setString("Graj");
-	menuOptionsText[1].setCharacterSize(40);
-	menuOptionsText[1].setFillColor(sf::Color::Yellow);
-	menuOptionsText[1].setPosition(window.getSize().x / 2.f - menuOptionsText[0].getGlobalBounds().width / 2.f, 300.f);
-
-	while (menu)
-	{
-
-
-	}
-
-	return 1;
-
-
-}
-
 void GameWindow::game(std::unique_ptr<GraphicFactory> factoryPointer)
 {
 	srand(time(NULL));
@@ -187,8 +145,8 @@ void GameWindow::game(std::unique_ptr<GraphicFactory> factoryPointer)
 		}
 
 		foodGraphic->setPosition((foodCoordinates.getX()*widthOfTile) + widthOfTile / 4, (foodCoordinates.getY()*heightOfTile) + heightOfTile / 4);
-		window.draw(foodGraphic->getGraphicShape());
-
+		window.draw(foodGraphic->getFoodGraphic());
+		
 
 		window.display();
 

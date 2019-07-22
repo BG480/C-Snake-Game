@@ -1,16 +1,16 @@
-#include "SnakeGraphicPart.h"
+#include "SnakePart.h"
 
-SnakeGraphicPart::SnakeGraphicPart(float radius)
+SnakePart::SnakePart(float radius)
 {
 	circle.setRadius(radius);
 }
 
-void SnakeGraphicPart::setPosition(float x, float y)
+void SnakePart::setPosition(float x, float y)
 {
 	circle.setPosition(x, y);
 }
 
-sf::CircleShape SnakeGraphicPart::getGraphicShape()
+sf::CircleShape SnakePart::getGraphicShape()
 {
 	return circle;
 }

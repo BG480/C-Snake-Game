@@ -1,7 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-class SnakeGraphicPart
+class SnakePart
 {
 protected:
 	
@@ -9,7 +9,7 @@ protected:
 
 public:
 
-	SnakeGraphicPart(float);
+	SnakePart(float);
 
 	void setPosition(float, float);
 

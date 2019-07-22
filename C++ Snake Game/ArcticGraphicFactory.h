@@ -1,7 +1,7 @@
 #pragma once
 #include "GraphicFactory.h"
-#include "ArcticScreenTile.h"
-#include "ArcticSnakeGraphicPart.h"
+#include "ArcticTile.h"
+#include "ArcticSnakePart.h"
 #include "ArcticFood.h"
 #include <memory>
 
@@ -10,8 +10,8 @@ class ArcticGraphicFactory : public GraphicFactory
 {
 
 	public:
-		virtual std::unique_ptr<ScreenTile> makeTile(float, float);
-		virtual std::unique_ptr<FoodGraphic> makeFood(float);
-		virtual std::unique_ptr<SnakeGraphicPart> makeSnakeGraphicPart(float);
+		virtual std::unique_ptr<Tile> makeTile(float, float);
+		virtual std::unique_ptr<Food> makeFood(float);
+		virtual std::unique_ptr<SnakePart> makeSnakeGraphicPart(float);
 
 };

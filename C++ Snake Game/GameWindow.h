@@ -1,7 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "ScreenTile.h"
-#include "ArcticScreenTile.h"
+#include "Tile.h"
+#include "ArcticTile.h"
 #include "GraphicFactory.h"
 #include "ElementCoordinates.h"
 #include <memory>

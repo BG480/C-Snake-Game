@@ -1,16 +1,16 @@
 #pragma once
 #include <memory>
-#include "ScreenTile.h"
-#include "FoodGraphic.h"
-#include "SnakeGraphicPart.h"
+#include "Tile.h"
+#include "Food.h"
+#include "SnakePart.h"
 
 class GraphicFactory
 {
 public:
 
-	virtual std::unique_ptr<ScreenTile> makeTile(float, float) = 0;
-	virtual std::unique_ptr<FoodGraphic> makeFood(float) = 0;
-	virtual std::unique_ptr<SnakeGraphicPart> makeSnakeGraphicPart(float) = 0;
+	virtual std::unique_ptr<Tile> makeTile(float, float) = 0;
+	virtual std::unique_ptr<Food> makeFood(float) = 0;
+	virtual std::unique_ptr<SnakePart> makeSnakeGraphicPart(float) = 0;
 
 
 };

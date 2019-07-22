@@ -24,37 +24,16 @@
     <ClCompile Include="ArcticGraphicFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ArcticScreenTile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ArcticSnakeGraphicPart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DesertFood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DesertGraphicFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DesertScreenTile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DesertSnakeGraphicPart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Food.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GraphicFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ScreenTile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SnakeGraphicPart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SnakePart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TropicalFood.cpp">
@@ -63,13 +42,28 @@
     <ClCompile Include="TropicalGraphicFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TropicalScreenTile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TropicalSnakeGraphicPart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcticTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcticSnakePart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DesertTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DesertSnakePart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementCoordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TropicalTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TropicalSnakePart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -80,28 +74,13 @@
     <ClInclude Include="ArcticGraphicFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ArcticScreenTile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ArcticSnakeGraphicPart.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DesertFood.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DesertGraphicFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DesertScreenTile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DesertSnakeGraphicPart.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ElementCoordinates.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="FoodGraphic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraphicFactory.h">
@@ -110,25 +89,40 @@
     <ClInclude Include="MoveDirection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenTile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SnakeGraphicPart.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TropicalFood.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TropicalGraphicFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TropicalScreenTile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TropicalSnakeGraphicPart.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakePart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcticTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcticSnakePart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TropicalTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TropicalSnakePart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DesertTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DesertSnakePart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

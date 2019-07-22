@@ -1,10 +1,12 @@
 #pragma once
-#include "FoodGraphic.h"
+#include "Food.h"
 
-class ArcticFood : public FoodGraphic
+class ArcticFood : public Food
 {
+	sf::CircleShape foodShape;
 public:
-
 	ArcticFood(float);
+	void setPosition(float, float);
+	sf::CircleShape getFoodGraphic();
 
 };

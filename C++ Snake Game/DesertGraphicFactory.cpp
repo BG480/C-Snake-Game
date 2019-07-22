@@ -1,16 +1,16 @@
 #include "DesertGraphicFactory.h"
 
-std::unique_ptr<ScreenTile> DesertGraphicFactory::makeTile(float width, float height)
+std::unique_ptr<Tile> DesertGraphicFactory::makeTile(float width, float height)
 {
-	return std::make_unique<DesertScreenTile>(width, height);
+	return std::make_unique<DesertTile>(width, height);
 }
 
-std::unique_ptr<FoodGraphic> DesertGraphicFactory::makeFood(float radius)
+std::unique_ptr<Food> DesertGraphicFactory::makeFood(float radius)
 {
 	return std::make_unique<DesertFood>(radius);
 }
 
-std::unique_ptr<SnakeGraphicPart> DesertGraphicFactory::makeSnakeGraphicPart(float radius)
+std::unique_ptr<SnakePart> DesertGraphicFactory::makeSnakeGraphicPart(float radius)
 {
-	return std::make_unique<DesertSnakeGraphicPart>(radius);
+	return std::make_unique<DesertSnakePart>(radius);
 }
