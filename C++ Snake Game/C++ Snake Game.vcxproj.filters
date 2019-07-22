@@ -30,12 +30,6 @@
     <ClCompile Include="DesertGraphicFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GraphicFactory.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SnakeGraphicPart.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TropicalFood.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

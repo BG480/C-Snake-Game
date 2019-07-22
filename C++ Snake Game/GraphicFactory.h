@@ -12,5 +12,4 @@ public:
 	virtual std::unique_ptr<Food> makeFood(float) = 0;
 	virtual std::unique_ptr<SnakePart> makeSnakeGraphicPart(float) = 0;
 
-
 };

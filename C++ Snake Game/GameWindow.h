@@ -22,11 +22,7 @@ class GameWindow
 public:
 
 	GameWindow(int, int, int, int, float, float);
-
-	int menu();
-
 	void game(std::unique_ptr<GraphicFactory>);
-
 	~GameWindow();
 
 };

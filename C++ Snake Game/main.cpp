@@ -24,8 +24,7 @@ int main()
 			graphicFactory = std::make_unique<TropicalGraphicFactory>();
 			break;
 	}
-
-	
+		
 	GameWindow window(1200, 800, 12, 8, 100.f, 100.f);
 	window.game(std::move(graphicFactory));
 	return 0;

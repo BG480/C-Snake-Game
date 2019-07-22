@@ -4,7 +4,6 @@
 class Tile
 {
 
-
 public:
 	
 	virtual void setPosition(float, float) = 0;

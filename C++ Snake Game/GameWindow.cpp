@@ -10,7 +10,6 @@ GameWindow::GameWindow(int width, int height, int horizontalTiles, int verticalT
 	widthOfTile = tileWidth;
 	heightOfTile = tileHeight;
 	window.create(sf::VideoMode(screenWidth, screenHeight), "C++ Snake Game", sf::Style::Default);
-	
 }
 
 void GameWindow::game(std::unique_ptr<GraphicFactory> factoryPointer)

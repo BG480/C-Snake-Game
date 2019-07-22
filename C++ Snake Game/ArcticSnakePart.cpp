@@ -1,6 +1,16 @@
 #include "ArcticSnakePart.h"
 
-ArcticSnakePart::ArcticSnakePart(float radius): SnakePart(radius)
+ArcticSnakePart::ArcticSnakePart(float radius)
 {
-	circle.setFillColor(sf::Color::Color(188,186,190,255));
+	circle.setRadius(radius);
+}
+
+void ArcticSnakePart::setPosition(float x, float y)
+{
+	circle.setPosition(x, y);
+}
+
+sf::CircleShape ArcticSnakePart::getGraphicShape()
+{
+	return circle;
 }

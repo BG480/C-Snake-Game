@@ -3,16 +3,9 @@
 
 class SnakePart
 {
-protected:
-	
-	sf::CircleShape circle;
-
 public:
 
-	SnakePart(float);
-
-	void setPosition(float, float);
-
-	sf::CircleShape getGraphicShape();
+	virtual void setPosition(float, float) = 0;
+	virtual sf::CircleShape getGraphicShape() = 0;
 
 };

@@ -1,6 +1,16 @@
 #include "TropicalSnakePart.h"
 
-TropicalSnakePart::TropicalSnakePart(float radius) : SnakePart(radius)
+TropicalSnakePart::TropicalSnakePart(float radius)
 {
-	circle.setFillColor(sf::Color::Color(80,49,47,255));
+	circle.setRadius(radius);
+}
+
+void TropicalSnakePart::setPosition(float x, float y)
+{
+	circle.setPosition(x, y);
+}
+
+sf::CircleShape TropicalSnakePart::getGraphicShape()
+{
+	return circle;
 }

@@ -28,9 +28,7 @@
     <ClCompile Include="DesertGraphicFactory.cpp" />
     <ClCompile Include="DesertTile.cpp" />
     <ClCompile Include="DesertSnakePart.cpp" />
-    <ClCompile Include="GraphicFactory.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SnakeGraphicPart.cpp" />
     <ClCompile Include="ElementCoordinates.cpp" />
     <ClCompile Include="TropicalFood.cpp" />
     <ClCompile Include="TropicalGraphicFactory.cpp" />
